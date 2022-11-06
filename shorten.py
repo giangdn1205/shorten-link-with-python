@@ -58,13 +58,13 @@ def ouo_IO(url): # phải vượt link
 
 
 def tinyUrl(url, custom=""): 
-    url_link = "http://tinyurl.com/api-create.php?" \
-    + urllib.parse.urlencode({"url": url})
-    res = requests.get(url_link)
-    if (res.status_code == 200):
-        return res.text
-    else:
-        return None
+	url_link = "http://tinyurl.com/api-create.php?" \
+	+ urllib.parse.urlencode({"url": url})
+	res = requests.get(url_link)
+	if (res.status_code == 200):
+		return res.text
+	else:
+		return None
 
 
 def vurl_Com(url):
@@ -79,11 +79,11 @@ link_test = "https://www.youtube.com/watch?v=qzgCB31a458"
 custom_test = "2022python5"
 
 # custom
-print(bomSo(link_test, custom_test))     	# https://bom.so/2022python5
+print(bomSo(link_test, custom_test))		# https://bom.so/2022python5
 print(rgl_ink(link_test, custom_test))		# https://rgl.ink/2022python5
 											
 # no custom
-print(hide_URI(link_test))			# https://hideuri.com/mGPMRB
-print(ouo_IO(link_test))			# https://ouo.io/eX4vvL
-print(tinyUrl(link_test))			# https://tinyurl.com/2d2louyb
-print(vurl_Com(link_test))			# https://vurl.com/o6wnB
+print(hide_URI(link_test))					# https://hideuri.com/mGPMRB
+print(ouo_IO(link_test))					# https://ouo.io/eX4vvL
+print(tinyUrl(link_test))					# https://tinyurl.com/2d2louyb
+print(vurl_Com(link_test))					# https://vurl.com/o6wnB
