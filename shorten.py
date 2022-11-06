@@ -83,7 +83,7 @@ print(bomSo(link_test, custom_test))		# https://bom.so/2022python5
 print(rgl_ink(link_test, custom_test))		# https://rgl.ink/2022python5
 											
 # no custom
-print(hide_URI(link_test))					# https://hideuri.com/mGPMRB
-print(ouo_IO(link_test))					# https://ouo.io/eX4vvL
-print(tinyUrl(link_test))					# https://tinyurl.com/2d2louyb
-print(vurl_Com(link_test))					# https://vurl.com/o6wnB
+print(hide_URI(link_test))			# https://hideuri.com/mGPMRB
+print(ouo_IO(link_test))			# https://ouo.io/eX4vvL
+print(tinyUrl(link_test))			# https://tinyurl.com/2d2louyb
+print(vurl_Com(link_test))			# https://vurl.com/o6wnB
